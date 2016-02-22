@@ -1,4 +1,8 @@
 class String
+	def colors
+		[:red, :green, :yellow, :blue, :pink, :light_blue, :white, :light_grey, :black]
+	end
+
 	def self.create_colors
 		#code to generate all color methods goes here
 		[:red, :green, :yellow, :blue, :pink, :light_blue, :white, :light_grey, :black].each do |c|

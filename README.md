@@ -23,6 +23,11 @@ To colorize strings:
 "example".red
 ```
 
+To get a list of color methods available:
+```ruby
+"example".colors
+```
+
 #License
 colorizr is free software under the MIT license
 
