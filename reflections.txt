@@ -1,0 +1,12 @@
+How does your gem take advantage of Ruby’s metaprogramming capabilities?
+- It opens up the String class and adds methods to this class
+- Able to keep code DRY by utilising the send and define_method methods to create all of the methods for the different colors.
+
+How long did you spend working on this project?
+- 2.5 hours
+
+What was the most rewarding challenge you conquered?
+- generating the color methods
+
+Where do you still have room to grow?
+- Much more to learn around metaprogramming. I'll keep practicing!
