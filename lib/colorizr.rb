@@ -2,7 +2,17 @@ class String
 	def colors
 		[:red, :green, :yellow, :blue, :pink, :light_blue, :white, :light_grey, :black]
 	end
-
+	def sample_colors
+		puts 	"This is \e[31mred\e[0m\n" +
+		  	 	"This is \e[32mgreen\e[0m\n" +
+					"This is \e[33myellow\e[0m\n" +
+					"This is \e[34mblue\e[0m\n" +
+					"This is \e[35mpink\e[0m\n" +
+					"This is \e[94mlight_blue\e[0m\n" +
+					"This is \e[97mwhite\e[0m\n" +
+					"This is \e[37mlight_grey\e[0m\n" +
+					"This is \e[30mblack\e[0m"
+	end
 	def self.create_colors
 		#code to generate all color methods goes here
 		[:red, :green, :yellow, :blue, :pink, :light_blue, :white, :light_grey, :black].each do |c|

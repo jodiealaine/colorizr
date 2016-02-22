@@ -18,5 +18,5 @@ puts "Only #{'John'.red} is red"
 p "bob".colors
 
 # Should show a list text examples for each of our color choice methods
-# String.sample_colors
+"example".sample_colors
 
