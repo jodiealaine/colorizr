@@ -2,7 +2,7 @@ class String
 	def colors
 		[:red, :green, :yellow, :blue, :pink, :light_blue, :white, :light_grey, :black]
 	end
-	def sample_colors
+	def self.sample_colors
 		puts 	"This is \e[31mred\e[0m\n" +
 		  	 	"This is \e[32mgreen\e[0m\n" +
 					"This is \e[33myellow\e[0m\n" +

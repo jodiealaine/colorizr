@@ -25,12 +25,12 @@ To colorize strings:
 
 To get a list of color methods available:
 ```ruby
-"p example".colors
+p "example".colors
 ```
 
 To get output sample text showcasing all colors:
 ```ruby
-"example".sample_colors
+String.sample_colors
 ```
 
 #License
